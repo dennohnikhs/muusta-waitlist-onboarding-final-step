@@ -1,47 +1,71 @@
-<div class="py-2 items-center text-gray-500 lg:flex">
+<div class="py-2 items-center text-gray-500 lg:flex bg-white shadow-sm">
   <div class="w-full flex justify-between items-center">
-    <div class="flex items-center flex-row lg:gap-2 gap-1">
-      <img
-        src="/assets/public/muusta_logo.jpg"
-        alt="muusta_logo"
-        class="w-[20px] h-[20px] font-bold"
-      />
-      <h1 class="font-bold text-[20px] mt-1 text-black">Muuster</h1>
-    </div>
-    <div class="lg:max-w-[288px]">
-      <button class="flex items-center gap-5">
-        <div class="flex flex-row text-orange-400 gap-2 items-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="18"
-            height="18"
-            class="main-grid-item-icon hidden lg:block"
-            fill="none"
-            stroke="orange"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <line x1="2" x2="22" y1="12" y2="12" />
-            <path
-              d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
-            />
-          </svg>
-          <h2 class="font-bold text-md hidden lg:block">EN</h2>
-        </div>
-
-        <div
-          class="p-1 lg:px-6 bg-orange-400 text-white rounded-sm lg:w-[215px]"
+    <div class="flex gap-2 items-center">
+      <h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="orange"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-shopping-bag"
         >
-          <h2
-            class="text-[16px] rounded-sm whitespace-nowrap md:text-sm font-medium lg:text-[16px]"
-          >
-            Check Waitlist Status
-          </h2>
-        </div>
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+      </h1>
+      <h1 class="font-extrabold text-[1.4rem] text-black">Muuster</h1>
+      <h2 class="font-normal text-red-500 mt-1">Store</h2>
+    </div>
+    <div class="flex gap-4">
+      <button class="flex items-center gap-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-bell"
+        >
+          <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+          <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+        </svg>
       </button>
+      <img
+        src="https://placebeard.it/640x360"
+        alt="avatar"
+        class="h-[45px] w-[45px] object-cover rounded-md"
+      />
+      <div class="flex gap-2">
+        <div>
+          <h1 class="text-xs">welcome back</h1>
+          <h1 class="text-[1.2rem]">Mariana</h1>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          class="main-grid-item-icon"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="text-black-300 mt-2"
+        >
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </div>
     </div>
   </div>
 </div>
